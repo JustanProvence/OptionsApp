@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "options-backend"
+version = "0.1.0"
+description = "Backend API for a React Native application using FastAPI and Firebase."
+authors = ["Your Name <youremail@example.com>"]
+license = "MIT"
+packages = [
+    {include = "options", from = "src"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "0.116.0"
+firebase-admin = "6.9.0"
+polygon-api-client="1.14.6"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+options = "options.main:cli"
