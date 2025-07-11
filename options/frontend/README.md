@@ -1,66 +1,50 @@
-# Frontend React Native Application
+# Welcome to your Expo app 👋
 
-This is the frontend part of the application built using React Native. It is designed to authenticate users using Google login through Firebase Authentication and manage data with Cloud Firestore.
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Getting Started
+## Get started
 
-### Prerequisites
+1. Install dependencies
 
-- Node.js (version 14 or later)
-- npm (Node Package Manager)
-- React Native CLI
-- Firebase account
-
-### Installation
-
-1. Clone the repository:
-   ```
-   git clone <repository-url>
-   cd my-app/frontend
-   ```
-
-2. Install the dependencies:
-   ```
+   ```bash
    npm install
    ```
 
-3. Set up Firebase:
-   - Create a Firebase project in the Firebase Console.
-   - Enable Google Authentication in the Authentication section.
-   - Add your app to the Firebase project and obtain the configuration details.
+2. Start the app
 
-4. Configure Firebase:
-   - Update the `firebase.js` file with your Firebase configuration.
+   ```bash
+   npx expo start
+   ```
 
-### Running the Application
+In the output, you'll find options to open the app in a
 
-To run the application on Android or iOS, use the following commands:
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-- For Android:
-  ```
-  npx react-native run-android
-  ```
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-- For iOS:
-  ```
-  npx react-native run-ios
-  ```
+## Get a fresh project
 
-To run the application on the web, use:
-```
-npm start
+When you're ready, run:
+
+```bash
+npm run reset-project
 ```
 
-### Usage
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-- The main entry point of the application is `App.js`.
-- The login functionality is handled in the `LoginScreen.js` component.
-- The `GoogleLoginButton.js` component triggers the Google login process.
+## Learn more
 
-### Contributing
+To learn more about developing your project with Expo, look at the following resources:
 
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-### License
+## Join the community
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+Join our community of developers creating universal apps.
+
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
